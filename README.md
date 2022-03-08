@@ -7,6 +7,16 @@ For website users, please leave feedback about Shrewdies.com...
 I'm always on the lookout for technical help. So if you are interested in coding or website deployment, please introduce yourself in either Issues or Discussions, as you think fit.
 
 ***
+## Code change notes:
+
+### 220308
+- /_site/404.md
+- /_site/_data/metadata.json
+- deleted posts, courses, projects, and images
+
+
+
+***
 Original template README...
 ## Seven
 
