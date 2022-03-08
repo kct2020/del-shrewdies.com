@@ -9,7 +9,43 @@ I'm always on the lookout for technical help. So if you are interested in coding
 ***
 ## Code change notes:
 
-### 220308
+### 220308b
+Cloudflare Pages deployment failed. Tried again with Gitpod:
+Terminal
+- Run `npm install` to install dependencies
+- Run `npm start` to start the development server.
+- [other files edited earlier]
+- Run `npm run build` to build the project.
+errors that I don't understand. Seems to be loads of outdated dependencies. So try 
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "@11ty/eleventy-plugin-rss": "^1.1.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
+    "@11ty/eleventy-upgrade-help": "^1.0.1",
+    "eleventy-plugin-nesting-toc": "^1.2.0",
+    "express": "^4.17.1",
+    "luxon": "^1.24.1",
+    "markdown-it": "^8.4.1",
+    "markdown-it-anchor": "^5.3.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.32.8",
+    "unset-value": "^1.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "animate.css": "^3.7.2",
+    "bootstrap": "^5.0.1",
+    "vue": "^2.6.11"
+
+from https://github.com/planetoftheweb/planetoftheweb.github.io/blob/main/package.json
+Then npm install reports vulnerabilities so:
+run npm audit fix --force
+
+Still gives vulnerabilities but tried to continue with `npm start`. Which produced working dist, so tried again with `npm run build`.
+
+### 220308a
 - /_site/404.md
 - /_site/_data/metadata.json
 - deleted posts, courses, projects, and images
