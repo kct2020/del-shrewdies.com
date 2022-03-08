@@ -1,4 +1,14 @@
-# Seven
+# Shrewd Learning Source
+
+For website users, please leave feedback about Shrewdies.com...
+- In [Issues](https://github.com/kct2020/shrewdies.com/issues), for feedback about specific pages. Including errors, missing info, or kudos. Issues are especially useful for getting clarification about how to resolve your learning concerns.
+- In [Discussions](https://github.com/kct2020/shrewdies.com/discussions), to share your questions, experiences, and opinions with like-minded learners.
+
+I'm always on the lookout for technical help. So if you are interested in coding or website deployment, please introduce yourself in either Issues or Discussions, as you think fit.
+
+***
+Original template README...
+## Seven
 
 This project is a template for building sites using the [Eleventy](https://www.11ty.io/) static site generator. You can see a demo of the site at [7ty.tech](https://7ty.tech). It features a Vue.js powered simple search based on what's in `_site/posts` and `_site/courses` as well as pagination, animations and much more.
 
