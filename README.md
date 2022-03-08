@@ -43,7 +43,7 @@ from https://github.com/planetoftheweb/planetoftheweb.github.io/blob/main/packag
 Then npm install reports vulnerabilities so:
 run npm audit fix --force
 
-Still gives vulnerabilities but tried to continue with `npm start`. Which produced working dist, so tried again with `npm run build`.
+Still gives vulnerabilities but tried to continue with `npm start`. Which produced working dist, so tried again with `npm run build`. Now it fails due to missing webpack. That script isn't called in the live site package. so delete
 
 ### 220308a
 - /_site/404.md
